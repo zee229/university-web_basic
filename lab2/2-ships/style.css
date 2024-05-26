@@ -1,0 +1,34 @@
+body {
+    background-color: #8d70b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#battlefield {
+    border-collapse: collapse;
+}
+
+.ship, .cell {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+}
+
+.cell {
+    background-color: rgb(196, 248, 255);
+}
+
+.ship {
+    background-color: rgb(192, 210, 30);
+}
+
+.cell:hover {
+    background-color: rgb(135, 222, 213);
+}
+
+.ship:hover {
+    background-color: rgb(58, 153, 150);
+}

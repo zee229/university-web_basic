@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    height: 80vh;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  
+  .rectangle {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1s ease;
+  }
+  

@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#topBlueElement {
+    background-color: #15aff0;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#bottomBlueElement {
+    background-color: #15aff0;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#leftYellowElement {
+    background-color: rgb(255, 207, 17);
+    height: 100vh;
+    width: 10%;
+    float: left;
+}
+
+#rightYellowElement {
+    background-color: rgb(255, 207, 17);
+    height: 100vh;
+    width: 10%;
+    float: right;
+}
+
+#content {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10vh;
+    padding: 20px;
+}
+
+span.highlight {
+    color: rgb(14, 209, 183);
+  }
+  

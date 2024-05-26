@@ -1,0 +1,33 @@
+body {
+    background-color: #a883e7;
+}
+
+.workDayElement,
+.dayNameElement,
+.weekendElement {
+    height: 50px;
+    width: 50px;
+
+    text-align: center;
+}
+
+#calendar {
+    width: 100%;
+    height: 95vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dayNameElement {
+    background-color: #b3a38e;
+}
+
+.workDayElement {
+    background-color: #ffe4c4;
+}
+
+.weekendElement {
+    background-color: #d2271e;
+}

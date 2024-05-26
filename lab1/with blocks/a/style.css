@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.outerFlexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.innerFlexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.blueElement {
+    background-color: #15aff0;
+    height: 10vh;
+}
+
+.yellowElement {
+    background-color: rgb(255, 207, 17);
+    display: flex;
+    width: 10vw;
+}
+
+.emptyElement {
+    width: 10vw;
+}
+
+.content {
+    padding: 20%;
+}
+
+.yellowElement:hover {
+    background-color: chocolate;
+}
+
+.blueElement:hover {
+    background-color: aqua;
+}
+
+span.highlight {
+    color: rgb(14, 209, 183);
+}
